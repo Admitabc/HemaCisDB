@@ -1,5 +1,6 @@
 track ATACseq
-shortLabel ATACseq signal 
+bigDataUrl https://hemacisdb.chinablood.com.cn/static/data/atac/SRR7226629/SRR7226629_no_chrM_filtered_dedup.bam.bw
+shortLabel ATACseq SRR7226629 Signal
 longLabel Depth of alignments of ATACseq reads
 type bigWig 
 visibility full
@@ -7,10 +8,3 @@ autoScale on
 maxHeightPixels 128:32:11
 priority 1
 color 255,0,0
-
-	track SRR7226629
-	bigDataUrl https://hemacisdb.chinablood.com.cn/static/data/atac/SRR7226629/SRR7226629_no_chrM_filtered_dedup.bam.bw
-	shortLabel SRR7226629 
-	longLabel SRR7226629 
-	parent ATACseq on
-	
