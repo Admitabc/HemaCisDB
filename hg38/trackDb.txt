@@ -1,6 +1,6 @@
 track ATACseq
 bigDataUrl https://hemacisdb.chinablood.com.cn/static/data/atac/SRR7226629/SRR7226629_no_chrM_filtered_dedup.bam.bw
-shortLabel ATACseq SRR7226629 Signal
+shortLabel SRR7226629
 longLabel Depth of alignments of ATACseq reads
 type bigWig 
 visibility full
