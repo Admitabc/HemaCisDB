@@ -1,10 +1,16 @@
+########################################################
 track ATACseq
-bigDataUrl https://hemacisdb.chinablood.com.cn/static/data/atac/SRR7226629/SRR7226629_no_chrM_filtered_dedup.bam.bw
-shortLabel SRR7226629
-longLabel Depth of alignments of ATACseq reads
-type bigWig 
-visibility full
-autoScale on
-maxHeightPixels 128:32:11
+type bigwig
+compositeTrack on
+shortLabel ATACseq Signal
+longLabel Depth of alignments of ATACseq reads 
+visibility pack 
 priority 1
-color 255,0,0
+
+
+                track Astrocytes
+                bigDataUrl https://hemacisdb.chinablood.com.cn/static/data/atac/SRR7226629/SRR7226629_no_chrM_filtered_dedup.bam.bw
+                shortLabel SRR7226629
+                longLabel SRR7226629 
+                parent ATACseq on
+                type bigWig
