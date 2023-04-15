@@ -6,6 +6,7 @@ shortLabel ATACseq Signal
 longLabel Depth of alignments of ATACseq reads 
 visibility pack 
 priority 1
+color 255,0,0
 
 
                 track Astrocytes
