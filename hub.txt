@@ -1,0 +1,7 @@
+hub ENCODE_hg38_HemaCisDB
+shortLabel HemaCisDB
+longLabel HemaCisDB hg38 data
+genomesFile genomes.txt
+email caixinping1997@163.com
+descriptionUrl https://hemacisdb.chinablood.com.cn/#/
+useOneFile on
