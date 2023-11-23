@@ -9,7 +9,7 @@ priority 1
 color 255,0,0
 
 
-                track Astrocytes
+                track SRR7226629.bw
                 bigDataUrl https://hemacisdb.chinablood.com.cn/static/data/atac/SRR7226629/SRR7226629_no_chrM_filtered_dedup.bam.bw
                 shortLabel SRR7226629
                 longLabel SRR7226629 
