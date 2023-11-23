@@ -1,4 +1,4 @@
-hub  ENCODE_hg38_HemaCisDB
+hub ENCODE_hg38_HemaCisDB
 shortLabel HemaCisDB
 longLabel HemaCisDB hg38 data
 genomesFile genomes.txt
